@@ -2,36 +2,46 @@
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
-   <link rel="stylesheet" href="../css/style.css">
-   <title>Weather by api</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Weather by API</title>
 </head>
 
 <body>
-   <div class="container">
-      <div class="row">
-         <div class="col col-lg-12 text-center">
-            <h1>Weather by API</h1>
-         </div>
-      </div>
-   </div>
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-12 text-center">
+                <h1>Get weather by API</h1>
+                <h2>Choose city</h2>
+                <select name="" id="select">
+                    <option value="Saint-Petersburg">Saint-Petersburg, RU</option>
+                    <option value="Moscow">Moscow, RU</option>
+                    <option value="Sestroretsk">Sestroretsk, RU</option>
+                    <option value="Baku,AZ">Baku, AZ</option>
+                </select>
+            </div>
+        </div>
 
-   <div class="pricing-table row">
-      <div class="package featured">
-         <p class="package-name">Saint-Petersburg</p>
-         <hr>
-         <p class="price">10&deg;</p>
-         <hr>
-         <ul class="features">
-            <li>Feature 1</li>
-         </ul>
-         <button class="button-primary">Go</button>
-      </div>
-   </div>
-   <script src="../js/script.js"></script>
+        <div class="pricing-table row">
+            <div class="package featured">
+                <p class="package-name"></p>
+                <hr>
+                <p class="price"></p>
+                <p class="pressure"></p>
+                <p class="disclaimer"></p>
+                <hr>
+                <ul class="features">
+                    <li></li>
+                </ul>
+                <button class="button-primary">Press to Check</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
